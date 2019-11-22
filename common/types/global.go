@@ -1,6 +1,6 @@
 package types
 
-import "github.com/MatrixAINetwork/go-matrix/common"
+import "github.com/cranelv/Hercules/common/data"
 
 type RequestInterface interface {
 	Data() []byte
@@ -16,7 +16,7 @@ type CheckInterface interface {
 	Check(RequestInterface) ResponseInterface
 }
 type TransactionInterface interface {
-	From() common.Address
+	From() data.Address
 	Catagrate() []byte
 }
 

@@ -1,10 +1,10 @@
 package types
 
-import "github.com/MatrixAINetwork/go-matrix/common"
+import "github.com/cranelv/Hercules/common/data"
 
 type HeaderInterface interface {
 	CheckInterface
-	Hash()common.Hash
+	Hash()data.Hash
 	Number()uint64
 }
 type TxBlockInterface interface {
@@ -12,5 +12,5 @@ type TxBlockInterface interface {
 }
 type BlockInterface interface {
 	Header()HeaderInterface
-	Parent()common.Hash
+	Parent()data.Hash
 }

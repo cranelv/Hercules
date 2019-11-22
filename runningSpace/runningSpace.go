@@ -1,8 +1,8 @@
 package runningSpace
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/stateManager"
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
+	"github.com/cranelv/Hercules/stateManager"
+	"github.com/cranelv/Hercules/common/types"
 )
 
 type RunningSpaceInterface interface {

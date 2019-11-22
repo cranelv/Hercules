@@ -1,7 +1,7 @@
 package txPool
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
+	"github.com/cranelv/Hercules/common/types"
 )
 
 

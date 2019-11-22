@@ -1,7 +1,7 @@
 package pipe
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/protocol/network"
+	"github.com/cranelv/Hercules/common/protocol/network"
 )
 
 type GatewayPipe struct {

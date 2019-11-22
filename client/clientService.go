@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/pipe"
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
-	"github.com/MatrixAINetwork/go-matrix/sharding/protocol"
+	"github.com/cranelv/Hercules/pipe"
+	"github.com/cranelv/Hercules/common/types"
+	"github.com/cranelv/Hercules/common/protocol"
 )
 type ClientPipeSet struct {
 	txPoolPipe pipe.TxPoolHandlePipe

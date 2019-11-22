@@ -1,6 +1,6 @@
 package pipe
 
-import "github.com/MatrixAINetwork/go-matrix/sharding/types"
+import "github.com/cranelv/Hercules/common/types"
 
 type HeaderHandlePipe struct {
 	pipe PipeInterface

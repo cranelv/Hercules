@@ -1,6 +1,6 @@
 package consensus
 
-import "github.com/MatrixAINetwork/go-matrix/sharding/types"
+import "github.com/cranelv/Hercules/common/types"
 
 type ConsensusInterface interface {
 	Seal(blockInterface types.BlockInterface) (types.BlockInterface,error)

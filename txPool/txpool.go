@@ -1,6 +1,6 @@
 package txPool
 
-import "github.com/MatrixAINetwork/go-matrix/sharding/types"
+import "github.com/cranelv/Hercules/common/types"
 
 type TxPoolInterface interface {
 	Append(types.TransactionInterface) error

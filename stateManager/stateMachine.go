@@ -1,9 +1,9 @@
 package stateManager
 
-import "github.com/MatrixAINetwork/go-matrix/common"
+import "github.com/cranelv/Hercules/common/data"
 
 type StateMachineInterface interface {
-	GetReadableState(common.Hash)StateSetInterface
-	GetWritableState(common.Hash)StateSetInterface
-	WriteState(common.Hash,StateSetInterface) error
+	GetReadableState(data.Hash)StateSetInterface
+	GetWritableState(data.Hash)StateSetInterface
+	WriteState(data.Hash,StateSetInterface) error
 }

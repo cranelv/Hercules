@@ -1,7 +1,7 @@
 package consensus
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
+	"github.com/cranelv/Hercules/common/types"
 )
 
 type SealBlockHandler struct {

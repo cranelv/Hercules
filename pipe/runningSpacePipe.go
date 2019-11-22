@@ -1,7 +1,7 @@
 package pipe
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
+	"github.com/cranelv/Hercules/common/types"
 	"github.com/MatrixAINetwork/go-matrix/common"
 )
 type RunningSpaceStyle int

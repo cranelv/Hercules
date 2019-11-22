@@ -1,7 +1,7 @@
 package runningSpace
 
 import (
-	"github.com/MatrixAINetwork/go-matrix/sharding/types"
+	"github.com/cranelv/Hercules/common/types"
 )
 
 type TxRunningHandler struct {

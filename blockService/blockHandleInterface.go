@@ -1,6 +1,6 @@
 package blockService
 
-import "github.com/MatrixAINetwork/go-matrix/sharding/types"
+import "github.com/cranelv/Hercules/common/types"
 
 type BlockHandleInterface interface {
 	IntegrateBlock(types.HeaderInterface,types.TxBlockInterface) types.BlockInterface
