@@ -12,6 +12,19 @@ const (
 
 	//block headerMessage
 	HEADER_GenerateHeader = iota + 0x3000
+
 	//gateway message
 	GATEWAY_BroadcastMessage = iota + 0x4000
+
+	//blockchain message
+	BLOCKCHAIN_InsertBlock = iota + 0x5000
+	BLOCKCHAIN_InsertHeader
+	BLOCKCHAIN_InsertStateSet
+	BLOCKCHAIN_DeleteBlock
+
+	//database
+	DATABASE_Insert = iota + 0x6000
+	DATABASE_Update
+	DATABASE_InsertUpdate
+	DATABASE_Delete
 )

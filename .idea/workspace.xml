@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e7288e9-49fa-4369-88d3-ee69725e673e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/txPool/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockService/blockGenerateHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockService/blockGenerateHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockService/blockHandleInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockService/blockHandleInterface.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockService/blockService.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockService/blockService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockService/broadcastBlockHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/blockService/broadcastBlockHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/clientService.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/clientService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/types/blockInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/types/blockInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/types/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/types/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consensus/SealBlockHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/SealBlockHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consensus/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/consensus.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/chainService.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/chainService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipe/TxPoolHandlePipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipe/TxPoolHandlePipe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipe/gatewayPipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipe/gatewayPipe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipe/headerHandlePipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipe/headerHandlePipe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipe/runningSpacePipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipe/runningSpacePipe.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runningSpace/TxRunningHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/runningSpace/TxRunningHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runningSpace/runningSpace.go" beforeDir="false" afterPath="$PROJECT_DIR$/runningSpace/runningSpace.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stateManager/stateMachine.go" beforeDir="false" afterPath="$PROJECT_DIR$/stateManager/stateMachine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txPool/generateBlockHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/txPool/generateBlockHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txPool/receiveTxHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/txPool/receiveTxHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txPool/txPoolService.go" beforeDir="false" afterPath="$PROJECT_DIR$/txPool/txPoolService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txPool/txpool.go" beforeDir="false" afterPath="$PROJECT_DIR$/txPool/txpool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipe/messageCode.go" beforeDir="false" afterPath="$PROJECT_DIR$/pipe/messageCode.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,83 +14,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="runningSpaceService.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningSpace/runningSpaceService.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TxRunningHandler.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runningSpace/TxRunningHandler.go">
+      <file leaf-file-name="databaseService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/databaseService/databaseService.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stateMachine.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stateManager/stateMachine.go">
+      <file leaf-file-name="blockchainService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockChainService/blockchainService.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockchainInterface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blockChainService/blockchainInterface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databasePipe.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pipe/databasePipe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/headerService/headerService.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="blockchainPipe.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pipe/blockchainPipe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockInterface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/blockInterface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="stateSet.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stateManager/stateSet.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transactions/transaction.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="generateBlockHandler.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txPool/generateBlockHandler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="54">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="receiveTxHandler.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txPool/receiveTxHandler.go">
+      <file leaf-file-name="messageCode.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pipe/messageCode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="396">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="txpool.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txPool/txpool.go">
+      <file leaf-file-name="gatewayPipe.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pipe/gatewayPipe.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="txPoolService.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/txPool/txPoolService.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#16#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/txPool/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="234">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -155,7 +139,6 @@
         <option value="$PROJECT_DIR$/client/clientService.go" />
         <option value="$PROJECT_DIR$/blockService/blockGenerateHandler.go" />
         <option value="$PROJECT_DIR$/blockService/blockHandleInterface.go" />
-        <option value="$PROJECT_DIR$/blockService/blockService.go" />
         <option value="$PROJECT_DIR$/common/dataTypes/types.go" />
         <option value="$PROJECT_DIR$/common/data.go" />
         <option value="$PROJECT_DIR$/common/types/global.go" />
@@ -181,6 +164,16 @@
         <option value="$PROJECT_DIR$/txPool/txPoolService.go" />
         <option value="$PROJECT_DIR$/.gitignore.go" />
         <option value="$PROJECT_DIR$/txPool/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/blockService/blockService.go" />
+        <option value="$PROJECT_DIR$/pipe/databasePipe.go" />
+        <option value="$PROJECT_DIR$/pipe/messageCode.go" />
+        <option value="$PROJECT_DIR$/databaseService/databaseService.go" />
+        <option value="$PROJECT_DIR$/blockChainService/blockchainService.go" />
+        <option value="$PROJECT_DIR$/blockChainService/BlockChainInterface.go" />
+        <option value="$PROJECT_DIR$/blockChainService/blockchainInterface.go" />
+        <option value="$PROJECT_DIR$/stateManager/stateSet.go" />
+        <option value="$PROJECT_DIR$/pipe/blockchainPipe.go" />
       </list>
     </option>
   </component>
@@ -212,6 +205,26 @@
               <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hercules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
+              <item name="blockChainService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
+              <item name="databaseService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
+              <item name="pipe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hercules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hercules" type="462c0819:PsiDirectoryNode" />
+              <item name="stateManager" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,6 +247,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
@@ -250,10 +264,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1655" height="940" extended-state="6" />
+    <frame x="65" y="-4" width="1653" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Database" />
@@ -262,7 +276,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3434466" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.24635923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -315,38 +329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blockService/blockGenerateHandler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blockService/blockHandleInterface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blockService/blockService.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blockService/broadcastBlockHandler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/clientService.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -369,13 +355,6 @@
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/types/blockInterface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -438,28 +417,12 @@
     <entry file="file://$PROJECT_DIR$/gateway/gatewayService.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/headerService/headerService.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pipe/gatewayPipe.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pipe/headerHandlePipe.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pipe/messageCode.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pipe/pipe.go">
       <provider selected="true" editor-type-id="text-editor" />
@@ -505,9 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stateManager/stateSet.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/transactions/transaction.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -549,10 +509,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/txPool/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockService/blockGenerateHandler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockService/broadcastBlockHandler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockService/blockService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/clientService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipe/gatewayPipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headerService/headerService.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipe/databasePipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipe/messageCode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databaseService/databaseService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockChainService/BlockChainInterface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockChainService/blockchainService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockChainService/blockchainInterface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stateManager/stateSet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/blockInterface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipe/blockchainPipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
