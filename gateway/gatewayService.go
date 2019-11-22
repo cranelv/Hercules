@@ -1,4 +1,4 @@
 package gateway
-type gatewayService struct {
+type GatewayService struct {
 
 }
